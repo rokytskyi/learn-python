@@ -97,14 +97,14 @@ Each task has its own directory with a Python file that you need to complete and
 
 ```bash
 # Example for Task 1
-cd tasks/task1_hello_world
+cd tasks/01_hello_world
 python hello_world.py
 ```
 
 For Task 11 (FastAPI Task Manager), you'll need to run it with Uvicorn:
 
 ```bash
-cd tasks/task11_fastapi_task_manager
+cd tasks/11_fastapi_task_manager
 uvicorn task_manager_api:app --reload
 ```
 
@@ -117,17 +117,17 @@ learn-python/
 ├── README.md
 ├── requirements.txt (if needed)
 ├── tasks/
-│   ├── task1_hello_world/
+│   ├── 01_hello_world/
 │   │   ├── description.md
 │   │   └── hello_world.py
-│   ├── task2_data_types/
+│   ├── 02_data_types/
 │   │   ├── description.md
 │   │   └── data_types.py
 │   ├── ...
-│   ├── task10_mini_project/
+│   ├── 10_mini_project/
 │   │   ├── description.md
 │   │   └── task_manager.py
-│   └── task11_fastapi_task_manager/
+│   └── 11_fastapi_task_manager/
 │       ├── description.md
 │       └── task_manager_api.py
 ```
