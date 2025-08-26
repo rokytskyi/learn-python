@@ -82,37 +82,9 @@ def display_menu():
 
 # 3. Convert the temperature based on the selected option
 # Your code here:
-# Example conversion functions:
-# def celsius_to_fahrenheit(celsius):
-#     return (celsius * 9/5) + 32
-#
-# def fahrenheit_to_celsius(fahrenheit):
-#     return (fahrenheit - 32) * 5/9
-#
-# def celsius_to_kelvin(celsius):
-#     return celsius + 273.15
-#
-# def kelvin_to_celsius(kelvin):
-#     return kelvin - 273.15
-#
-# def fahrenheit_to_kelvin(fahrenheit):
-#     return (fahrenheit - 32) * 5/9 + 273.15
-#
-# def kelvin_to_fahrenheit(kelvin):
-#     return (kelvin - 273.15) * 9/5 + 32
 
 # 4. Determine the temperature description (freezing, room temperature, boiling)
 # Your code here:
-# Example:
-# def get_temperature_description(celsius):
-#     if celsius <= 0:
-#         return "This temperature is below freezing point of water."
-#     elif 20 <= celsius <= 25:
-#         return "This temperature is at room temperature."
-#     elif celsius >= 100:
-#         return "This temperature is at or above the boiling point of water."
-#     else:
-#         return "This temperature is between freezing and boiling point of water."
 
 # 5. Display the result with appropriate formatting
 # Your code here:
